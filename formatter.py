@@ -19,7 +19,10 @@ output = ""
 # filtering out newline breaks w/ breaks from end of file
 for x in isiLines:
 
+    # TODO: Start working on ul/li interpretation
     if(x[0] == '•' or x[0] == '-' or x[0] == '*'):
+
+        output += "<ul><li>"
         print("BULLET")
 
 
