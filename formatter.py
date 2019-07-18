@@ -46,7 +46,6 @@ def toHtml(isiLines):
                     bulletState[bulletStack[len(bulletStack)-1]] = True
                     previous = "li"
                 else:
-
                     # need an if statement here...
                     if ((bullet in bulletStack) and len(bulletStack) > 1):
                         while(bulletStack[len(bulletStack)-1] != bullet and len(bulletStack) > 1):
@@ -54,9 +53,10 @@ def toHtml(isiLines):
                                 break
                             bulletStack.pop()
                             output += "</ul>"
+                            if(len(stack) >= 1):
+                                stack.pop()
 
                     if(len(bulletStack) == 1):
-
                         if(previous == "p"):
                             output += "<ul><li>" + x + "</li>"
                             previous = "li"
@@ -117,6 +117,8 @@ def toHtml(isiLines):
                     if(bulletState[bulletStack[len(bulletStack)-1]] == True):
                         bulletState[bulletStack[len(bulletStack)-1]] = False
                         output += "</ul>\n"
+                        if(len(stack) >= 1):
+                            stack.pop()
 
                 # \n exists as last character in non-break only lines. Need to remove
                 if str(x.strip().lower()) in sections:
@@ -147,7 +149,7 @@ def toHtml(isiLines):
     while(stack):
         if(stack[len(stack)-1] == "<ul>"):
             output += "</ul>"
-        stack.pop()
+            stack.pop()
 
     return output
 
