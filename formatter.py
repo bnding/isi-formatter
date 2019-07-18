@@ -16,6 +16,7 @@ def fileToList(fileName):
     f = open(fileName, "r")
     isiLines = [lines.replace('®', '<sup>®</sup>') for lines in f]
     f.close()
+    print(isiLines)
     return isiLines
 
 # TODO: Problems with going from nested lists to paragraph... look at prezista-isi.html
@@ -27,9 +28,9 @@ def toHtml(isiLines):
     bulletState = {}
     bulletStack = []
     prevBullet = ""
+    previous = ""
     previousSect = False
     for x in isiLines:
-        print("iterations")
         # strips leading whitespace if it exists
         if(x[0] == ' ' or x[0] == '\t'):
             x = x.strip()
@@ -43,30 +44,36 @@ def toHtml(isiLines):
                     stack.append("<ul>")
                     bulletStack.append(bullet)
                     bulletState[bulletStack[len(bulletStack)-1]] = True
+                    previous = "li"
                 else:
 
                     # need an if statement here...
-                    if ((bullet in bulletStack)):
-                        while(1):
+                    if ((bullet in bulletStack) and len(bulletStack) > 1):
+                        while(bulletStack[len(bulletStack)-1] != bullet and len(bulletStack) > 1):
                             if(bulletStack[len(bulletStack)-1] == bullet):
                                 break
-                            print(bulletStack)
                             bulletStack.pop()
-                            output += "asdf</ul>"
-                            print("should go here once")
+                            output += "</ul>"
 
-                        # removing the <ul> makes prezista work but makes intelence not work
+                    if(len(bulletStack) == 1):
+
+                        if(previous == "p"):
+                            output += "<ul><li>" + x + "</li>"
+                            previous = "li"
+                        else:
+                            output += "<li>" + x + "</li>"
+                            previous = "li"
+                    else:
                         output += "<ul><li>" + x + "</li>\n"
+                        previous = "li"
 
                 previousSect = False
                 bulletState[bulletStack[len(bulletStack)-1]] = True
-                # bulletState[bulletStack[len(bulletStack)-1]] = False
-                # bulletStack.pop()
-                # stack.pop()
                 if(len(bulletStack) > 1):
                     prevBullet = bulletStack[len(bulletStack)-2]
                 else:
                     prevBullet = ""
+                    previous = "li"
                 continue
 
             if(len(bulletStack) == 0):
@@ -79,6 +86,7 @@ def toHtml(isiLines):
                 output += "<ul>\n<li>" + x + "</li>\n"
                 stack.append("<ul>")
                 previousSect = False
+                previous = "li"
                 continue
 
             if bulletStack[len(bulletStack)-1] not in bulletState:
@@ -92,10 +100,12 @@ def toHtml(isiLines):
                 previousSect = False
                 # stack is implemented to make sure </ul> is written if a list is that last element of list
                 stack.append("<ul>")
+                previous = "li"
             elif bulletState[bulletStack[len(bulletStack)-1]] == True:
                 # Middle lists
                 x = x[1:].strip()
                 output += "<li>" + x + "</li>\n"
+                previous = "li"
                 previousSect = False
 
         # Non lists
@@ -119,15 +129,18 @@ def toHtml(isiLines):
                     previousSect = True
                     x = x[:-1].strip()
                     output += "<h3 class='section'>" + x + "</h3>"
+                    previous = "p"
                     continue
                 x = x[:-1].strip()
                 output += ("<p>" + x + "</p>\n")
+                previous = "p"
                 continue
             elif '\n' in x and len(x) == 1:
                 output += "<br>\n"
                 previousSect = False
             else:
                 output += "<p>" + x + "</p>\n"
+                previous = "p"
                 previousSect = False
 
     # Check for any trailing ul tags
