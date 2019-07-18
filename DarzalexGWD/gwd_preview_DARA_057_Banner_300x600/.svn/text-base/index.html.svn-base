@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta charset="utf-8">
+  <meta name="generator" content="Google Web Designer 5.1.1.0611">
+  <meta name="template" content="Banner 3.0.0">
+  <meta name="environment" content="gwd-dv360">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="gwdpage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-page">
+  <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-pagedeck">
+  <link href="gwdimage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-image">
+  <link href="gwdtaparea_style.css" rel="stylesheet" data-version="6" data-exports-type="gwd-taparea">
+  <link href="gwdgooglead_style.css" rel="stylesheet" data-version="5" data-exports-type="gwd-google-ad">
+  <style type="text/css" id="gwd-lightbox-style">.gwd-lightbox {
+    overflow: hidden;
+}</style>
+  <style type="text/css" id="gwd-text-style">::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    border-left: 2px solid rgb(237, 237, 237);
+    border-right: 2px solid rgb(237, 237, 237);
+    background-color: rgb(237, 237, 237);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(149, 149, 149);
+}
+p {
+    margin: 0px;
+    color: rgb(88, 89, 91);
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+}
+sup {
+    position: relative;
+    font-size: 60%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -0.4em;
+}
+.font-purple {
+    color: rgb(102, 45, 145);
+}
+.font-green {
+    color: rgb(0, 165, 157);
+}</style>
+  <style type="text/css">html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.gwd-page-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.gwd-page-content {
+    background-color: transparent;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 1400px;
+    -webkit-perspective: 1400px;
+    -moz-perspective: 1400px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    position: absolute;
+}
+.gwd-page-wrapper {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translateZ(0px);
+    -webkit-transform: translateZ(0px);
+    -moz-transform: translateZ(0px);
+}
+.gwd-page-size {
+    width: 300px;
+    height: 600px;
+}
+.frame-txt {
+    text-align: right;
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(198, 12, 70);
+}
+.frame2-txt {
+    position: absolute;
+    opacity: 0;
+    top: 68px;
+    left: 128px;
+}
+.frame3-txt {
+    position: absolute;
+    opacity: 0;
+    top: 68px;
+    left: 70px;
+}
+.isi-area {
+    position: absolute;
+    border-top: 1px solid rgb(232, 232, 232);
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    overflow-y: scroll;
+    opacity: 1;
+    left: 0px;
+    width: 290px;
+    height: 190px;
+    top: 400px;
+}
+.isi-narrow {
+    width: 200px;
+}
+.isi-area p {
+    margin: 0px 0px 5px;
+}
+.isi-area p.text-indent-bullets {
+    text-indent: -6px;
+    margin-left: 6px;
+}
+.isi-area p.text-indent-nobullets {
+    margin-left: 6px;
+}
+.isi-area p.border-top {
+    border-top: 1px solid black;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+.warning-border {
+    border: 1px solid rgb(1, 1, 1);
+    padding: 6px 6px 0px;
+    margin-bottom: 7px;
+}
+.janssen-logo {
+    width: 83px;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 0px;
+    opacity: 0;
+    top: 220px;
+}
+.logo {
+    position: absolute;
+    width: 92px;
+    height: 33px;
+    opacity: 0;
+    top: 19px;
+    left: 192px;
+}
+.photo {
+    position: absolute;
+    width: 253px;
+    height: 253px;
+    opacity: 0;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    top: 140px;
+    left: 128px;
+    transform: translate3d(76px, 106px, 0px);
+    -webkit-transform: translate3d(76px, 106px, 0px);
+    -moz-transform: translate3d(76px, 106px, 0px);
+}
+.footer-pi-link {
+    position: absolute;
+    width: 300px;
+    left: 0px;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 9px;
+    opacity: 1;
+    top: 103px;
+}
+.clickTag-learn {
+    position: absolute;
+    width: 300px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+}
+.clickTag4-footer {
+    position: absolute;
+    left: 0px;
+    width: 190px;
+    height: 17px;
+    top: 380px;
+}
+.gwd-sup-1mnz {
+    font-family: Arial;
+    font-size: 7.2px;
+    text-align: left;
+}
+.gwd-div-1buh {
+    width: 300px;
+    height: 600px;
+}
+.gwd-div-11o7 {
+    width: 300px;
+    height: 600px;
+}
+.gwd-image-vluy {
+    display: block;
+    position: absolute;
+    top: 413px;
+    width: 80px;
+    height: 52.29px;
+    left: 210px;
+}
+.gwd-image-1n67 {
+    display: block;
+    position: absolute;
+    width: 102px;
+    height: 25.37px;
+    left: 191px;
+    top: 368px;
+    opacity: 0;
+}
+.gwd-taparea-16yv {
+    display: block;
+    left: 0px;
+    position: absolute;
+    top: 1px;
+    width: 300px;
+    transform-origin: 150px 51.5px 0px;
+    -webkit-transform-origin: 150px 51.5px 0px;
+    -moz-transform-origin: 150px 51.5px 0px;
+    height: 398px;
+}
+.gwd-ul-z11u {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 8px;
+    height: 33.8125px;
+    left: 9px;
+    margin-bottom: 7px;
+    position: absolute;
+    top: 154px;
+    width: 183.083px;
+}
+.gwd-a-1sxq {
+    font-family: Arial;
+    font-size: 8px;
+}
+.fade-bkg {
+    display: block;
+    height: 400px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    transform-origin: 149.99px 199.986px 0px;
+    -webkit-transform-origin: 149.99px 199.986px 0px;
+    -moz-transform-origin: 149.99px 199.986px 0px;
+}
+.gwd-image-1n7v {
+    display: block;
+    height: 287px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 300px;
+}
+@keyframes gwd-gen-1soagwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1soagwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1soagwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1soagwdanimation {
+    animation: gwd-gen-1soagwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1soagwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1soagwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+}
+@keyframes gwd-gen-1159gwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(92px, 0px, 0px);
+        -webkit-transform: translate3d(92px, 0px, 0px);
+        -moz-transform: translate3d(92px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    88.4058% {
+        transform: translate3d(92px, 0px, 0px);
+        -webkit-transform: translate3d(92px, 0px, 0px);
+        -moz-transform: translate3d(92px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(331px, 0px, 0px);
+        -webkit-transform: translate3d(331px, 0px, 0px);
+        -moz-transform: translate3d(331px, 0px, 0px);
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1159gwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(92px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    88.4058% {
+        -webkit-transform: translate3d(92px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(331px, 0px, 0px);
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1159gwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(92px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    88.4058% {
+        -moz-transform: translate3d(92px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(331px, 0px, 0px);
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1159gwdanimation {
+    animation: gwd-gen-1159gwdanimation_gwd-keyframes 6.9s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1159gwdanimation_gwd-keyframes 6.9s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1159gwdanimation_gwd-keyframes 6.9s linear 0s 1 normal forwards;
+}
+.link-desc {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Arial;
+    font-size: 8px;
+    height: 10.9792px;
+    left: 8px;
+    position: absolute;
+    top: 356px;
+    width: 141.979px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 0px 0px 0px;
+    -webkit-transform-origin: 0px 0px 0px;
+    -moz-transform-origin: 0px 0px 0px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+.gwd-br-k2oh {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 8px;
+}
+.jsn-logo {
+    display: block;
+    left: 18px;
+    position: absolute;
+    top: 324px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    width: 205px;
+    height: 51px;
+    opacity: 0;
+    transform: translate3d(174px, 44px, 0px);
+    -webkit-transform: translate3d(174px, 44px, 0px);
+    -moz-transform: translate3d(174px, 44px, 0px);
+}
+.learn-more {
+    display: block;
+    height: 42px;
+    left: -330px;
+    position: absolute;
+    top: 235px;
+    width: 225px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform: translate3d(92px, 0px, 0px);
+    -webkit-transform: translate3d(92px, 0px, 0px);
+    -moz-transform: translate3d(92px, 0px, 0px);
+}
+.img-2 {
+    display: block;
+    height: 800px;
+    left: -438px;
+    position: absolute;
+    top: 0px;
+    width: 1200px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+.rec-1 {
+    display: block;
+    height: 399px;
+    left: -584px;
+    position: absolute;
+    top: 0px;
+    width: 565px;
+    transform-origin: 274.248px 199.578px 0px;
+    -webkit-transform-origin: 274.248px 199.578px 0px;
+    -moz-transform-origin: 274.248px 199.578px 0px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    font-size: 16px;
+}
+.txt-1 {
+    display: block;
+    left: -417px;
+    position: absolute;
+    top: 200px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    font-size: 16px;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    width: 156px;
+    height: 70.84px;
+}
+.darza-logo {
+    display: block;
+    height: 58px;
+    left: 199px;
+    position: absolute;
+    top: 413px;
+    width: 89px;
+}
+@keyframes gwd-gen-ol32gwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(758px, 0px, 0px);
+        -webkit-transform: translate3d(758px, 0px, 0px);
+        -moz-transform: translate3d(758px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        transform: translate3d(758px, 0px, 0px);
+        -webkit-transform: translate3d(758px, 0px, 0px);
+        -moz-transform: translate3d(758px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-ol32gwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(758px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -webkit-transform: translate3d(758px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-ol32gwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(758px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -moz-transform: translate3d(758px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-ol32gwdanimation {
+    animation: gwd-gen-ol32gwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-ol32gwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-ol32gwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+}
+.gwd-rect-i4bu {
+    position: absolute;
+    height: 201px;
+    top: 400px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    background-clip: content-box;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    left: -1px;
+}
+@keyframes gwd-gen-1p04gwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    80.3571% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1p04gwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-out;
+    }
+    80.3571% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1p04gwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-out;
+    }
+    80.3571% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1p04gwdanimation {
+    animation: gwd-gen-1p04gwdanimation_gwd-keyframes 5.6s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1p04gwdanimation_gwd-keyframes 5.6s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1p04gwdanimation_gwd-keyframes 5.6s linear 0s 1 normal forwards;
+}
+@keyframes gwd-gen-1d35gwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(0px, 229px, 0px);
+        -webkit-transform: translate3d(0px, 229px, 0px);
+        -moz-transform: translate3d(0px, 229px, 0px);
+        opacity: 0;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    76% {
+        transform: translate3d(0px, 229px, 0px);
+        -webkit-transform: translate3d(0px, 229px, 0px);
+        -moz-transform: translate3d(0px, 229px, 0px);
+        opacity: 0;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 229px, 0px);
+        -webkit-transform: translate3d(0px, 229px, 0px);
+        -moz-transform: translate3d(0px, 229px, 0px);
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1d35gwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(0px, 229px, 0px);
+        opacity: 0;
+        -webkit-animation-timing-function: ease-out;
+    }
+    76% {
+        -webkit-transform: translate3d(0px, 229px, 0px);
+        opacity: 0;
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(0px, 229px, 0px);
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1d35gwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(0px, 229px, 0px);
+        opacity: 0;
+        -moz-animation-timing-function: ease-out;
+    }
+    76% {
+        -moz-transform: translate3d(0px, 229px, 0px);
+        opacity: 0;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(0px, 229px, 0px);
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1d35gwdanimation {
+    animation: gwd-gen-1d35gwdanimation_gwd-keyframes 2.5s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1d35gwdanimation_gwd-keyframes 2.5s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1d35gwdanimation_gwd-keyframes 2.5s linear 0s 1 normal forwards;
+}
+.gwd-p-p45r {
+    width: 183.08px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform: translate3d(0px, 229px, 0px);
+    -webkit-transform: translate3d(0px, 229px, 0px);
+    -moz-transform: translate3d(0px, 229px, 0px);
+    opacity: 0;
+}
+@keyframes gwd-gen-1hkagwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    22.4138% {
+        transform: translate3d(430px, 0px, 0px);
+        -webkit-transform: translate3d(430px, 0px, 0px);
+        -moz-transform: translate3d(430px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        transform: translate3d(430px, 0px, 0px);
+        -webkit-transform: translate3d(430px, 0px, 0px);
+        -moz-transform: translate3d(430px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(-10px, 0px, 0px);
+        -webkit-transform: translate3d(-10px, 0px, 0px);
+        -moz-transform: translate3d(-10px, 0px, 0px);
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1hkagwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    22.4138% {
+        -webkit-transform: translate3d(430px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -webkit-transform: translate3d(430px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(-10px, 0px, 0px);
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1hkagwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    22.4138% {
+        -moz-transform: translate3d(430px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -moz-transform: translate3d(430px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(-10px, 0px, 0px);
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1hkagwdanimation {
+    animation: gwd-gen-1hkagwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1hkagwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1hkagwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+}
+.gwd-div-40l1 {
+    font-size: 16px;
+}
+@keyframes gwd-gen-nfj6gwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    22.4138% {
+        transform: translate3d(426px, 0px, 0px);
+        -webkit-transform: translate3d(426px, 0px, 0px);
+        -moz-transform: translate3d(426px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        transform: translate3d(426px, 0px, 0px);
+        -webkit-transform: translate3d(426px, 0px, 0px);
+        -moz-transform: translate3d(426px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(-14px, 0px, 0px);
+        -webkit-transform: translate3d(-14px, 0px, 0px);
+        -moz-transform: translate3d(-14px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-nfj6gwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -webkit-animation-timing-function: ease-out;
+    }
+    22.4138% {
+        -webkit-transform: translate3d(426px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -webkit-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -webkit-transform: translate3d(426px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(-14px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-nfj6gwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -moz-animation-timing-function: ease-out;
+    }
+    22.4138% {
+        -moz-transform: translate3d(426px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -moz-transform: translate3d(426px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(-14px, 0px, 0px);
+        width: 156px;
+        height: 70.84px;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-nfj6gwdanimation {
+    animation: gwd-gen-nfj6gwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-nfj6gwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-nfj6gwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+}
+.gwd-div-1n8b {
+    font-size: 16px;
+}
+@keyframes gwd-gen-1pengwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    22.4138% {
+        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    43.1034% {
+        transform: translate3d(425px, 0px, 0px);
+        -webkit-transform: translate3d(425px, 0px, 0px);
+        -moz-transform: translate3d(425px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        transform: translate3d(426px, 0px, 0px);
+        -webkit-transform: translate3d(426px, 0px, 0px);
+        -moz-transform: translate3d(426px, 0px, 0px);
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(-4px, 0px, 0px);
+        -webkit-transform: translate3d(-4px, 0px, 0px);
+        -moz-transform: translate3d(-4px, 0px, 0px);
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1pengwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -webkit-animation-timing-function: linear;
+    }
+    22.4138% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    43.1034% {
+        -webkit-transform: translate3d(425px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -webkit-transform: translate3d(426px, 0px, 0px);
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(-4px, 0px, 0px);
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1pengwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -moz-animation-timing-function: linear;
+    }
+    22.4138% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    43.1034% {
+        -moz-transform: translate3d(425px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    74.1379% {
+        -moz-transform: translate3d(426px, 0px, 0px);
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(-4px, 0px, 0px);
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1pengwdanimation {
+    animation: gwd-gen-1pengwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1pengwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1pengwdanimation_gwd-keyframes 5.8s linear 0s 1 normal forwards;
+}
+.gwd-image-kvl1 {
+    display: block;
+    font-size: 16px;
+    height: 49px;
+    left: -426px;
+    position: absolute;
+    top: 282px;
+    width: 276px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+.gwd-div-1yi2 {
+    font-size: 16px;
+}
+@keyframes gwd-gen-1a8dgwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(560px, 0px, 0px);
+        -webkit-transform: translate3d(560px, 0px, 0px);
+        -moz-transform: translate3d(560px, 0px, 0px);
+        width: 261px;
+        height: 91.18px;
+        animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(2px, 0px, 0px);
+        -webkit-transform: translate3d(2px, 0px, 0px);
+        -moz-transform: translate3d(2px, 0px, 0px);
+        width: 261px;
+        height: 91.18px;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1a8dgwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(560px, 0px, 0px);
+        width: 261px;
+        height: 91.18px;
+        -webkit-animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translate3d(2px, 0px, 0px);
+        width: 261px;
+        height: 91.18px;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1a8dgwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(560px, 0px, 0px);
+        width: 261px;
+        height: 91.18px;
+        -moz-animation-timing-function: ease-out;
+    }
+    100% {
+        -moz-transform: translate3d(2px, 0px, 0px);
+        width: 261px;
+        height: 91.18px;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1a8dgwdanimation {
+    animation: gwd-gen-1a8dgwdanimation_gwd-keyframes 1.5s linear 4.3s 1 normal forwards;
+    -webkit-animation: gwd-gen-1a8dgwdanimation_gwd-keyframes 1.5s linear 4.3s 1 normal forwards;
+    -moz-animation: gwd-gen-1a8dgwdanimation_gwd-keyframes 1.5s linear 4.3s 1 normal forwards;
+}
+.gwd-image-1thf {
+    display: block;
+    font-size: 16px;
+    left: 8px;
+    position: absolute;
+    top: 121px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    width: 261px;
+    height: 91.18px;
+    transform: translate3d(560px, 0px, 0px);
+    -webkit-transform: translate3d(560px, 0px, 0px);
+    -moz-transform: translate3d(560px, 0px, 0px);
+}
+.gwd-div-1j94 {
+    font-size: 16px;
+}</style><style type="text/css" data-gwd-secondary-animations="">#page1.gwd-play-animation .event-1-animation {
+    animation: gwd-empty-animation 0.1s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-empty-animation 0.1s linear 0s 1 normal forwards;
+    -moz-animation: gwd-empty-animation 0.1s linear 0s 1 normal forwards;
+}
+@keyframes gwd-empty-animation {
+    0% {
+        opacity: 0.001;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes gwd-empty-animation {
+    0% {
+        opacity: 0.001;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes gwd-empty-animation {
+    0% {
+        opacity: 0.001;
+    }
+    100% {
+        opacity: 0;
+    }
+}</style>
+  <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
+  <script data-source="gwd_webcomponents_min.js" data-version="6" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
+  <script data-source="gwdpage_min.js" data-version="12" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="12" data-exports-type="gwd-pagedeck" src="gwdpagedeck_min.js"></script>
+  <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-google-ad" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script data-source="gwdimage_min.js" data-version="12" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
+  <script data-source="gwdtaparea_min.js" data-version="6" data-exports-type="gwd-taparea" src="gwdtaparea_min.js"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/tweenlite_1.19.0_422f021fad4c20f20cf3640a06ac39e9_min.js"></script>
+  <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/cssplugin_1.19.0_cfbff7d208ccfdbe176b9855af1eb1fa_min.js"></script>
+  <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/scrolltoplugin_1.19.0_53288c1da14a1784cdf302f94d0116a7_min.js"></script>
+  <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/timelinelite_1.19.0_13e3bd0e510d63fd5e5ef9bf9dac7017_min.js"></script>
+  <script type="text/javascript" gwd-events="handlers">
+    window.gwd = window.gwd || {};
+    gwd.scrollIsi = function(event) {
+      setTimeout(function() {
+        var isi = new TimelineLite();
+        isi.to(document.querySelector('.gwd-isi'), 450, {
+          delay: 6,
+          scrollTo: {
+            y: 'max'
+          },
+          ease: 'linear'
+        });
+      }, 3000);
+    };
+    gwd.auto_ClickTag_mainExitAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdGoogleAd.exit('gwd-ad', 'mainExit', 'http://darzalexhcp.com', true, true, 'page1');
+    };
+    gwd.auto_ClickTag_PIAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdGoogleAd.exit('gwd-ad', 'PI Link', 'http://www.janssenlabels.com/package-insert/product-monograph/prescribing-information/DARZALEX-pi.pdf', true, true, 'page1');
+    };
+  </script>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+     // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('document.body', 'adinitialized', gwd.scrollIsi, false);
+      gwd.actions.events.addHandler('clickTag-mainExit', 'action', gwd.auto_ClickTag_mainExitAction, false);
+      gwd.actions.events.addHandler('clickTag-PI', 'action', gwd.auto_ClickTag_PIAction, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('document.body', 'adinitialized', gwd.scrollIsi, false);
+      gwd.actions.events.removeHandler('clickTag-mainExit', 'action', gwd.auto_ClickTag_mainExitAction, false);
+      gwd.actions.events.removeHandler('clickTag-PI', 'action', gwd.auto_ClickTag_PIAction, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
+  <script data-source="gwdgooglead_min.js" data-version="5" data-exports-type="gwd-google-ad" src="gwdgooglead_min.js"></script>
+</head>
+
+<body>
+  <gwd-google-ad id="gwd-ad">
+    <gwd-metric-configuration>
+      <gwd-metric-event source="clickTag-PI" event="tapareaexit" metric="" exit="Exit"></gwd-metric-event>
+      <gwd-metric-event source="clickTag-mainExit" event="tapareaexit" metric="" exit="Exit"></gwd-metric-event>
+    </gwd-metric-configuration>
+    <gwd-pagedeck class="gwd-page-container" id="pagedeck">
+      <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox gwd-div-11o7" data-gwd-width="300px" data-gwd-height="600px">
+        <div class="gwd-page-content gwd-page-size gwd-div-1buh">
+          <gwd-image id="DARZALEX_Evolution_Sun_Darker_lores_copy" source="DARZALEX_Evolution_Sun_Darker_lores_copy.jpg?1562005443312" scaling="stretch" class="gwd-image-1n7v"></gwd-image>
+          <gwd-image id="fade-bkg_1" source="fade-bkg.png?1562005443312" scaling="stretch" class="fade-bkg"></gwd-image>
+          <gwd-image id="purple1" source="rectangle_1v2.png?1562005443312" scaling="stretch" class="rec-1 gwd-gen-1hkagwdanimation"></gwd-image>
+          <div class="gwd-animation-event event-1-animation" data-event-name="event-1" data-event-time="100"></div>
+          <gwd-image id="rectangle_2v2" source="shape_2v2.png?1562005443312" scaling="stretch" class="img-2 gwd-gen-ol32gwdanimation"></gwd-image>
+          <svg data-gwd-shape="rectangle" class="gwd-rect-i4bu" id="isibkg"></svg>
+          <div class="isi-area gwd-isi gwd-gen-1kwzgwdanimation" id="isi-area">
+            <div class="isi-narrow">
+              <p class="font-purple"><strong>INDICATION</strong>
+              </p>
+             
+<p>
+              DARZALEX<sup>®</sup> is a CD38-directed cytolytic antibody indicated for the treatment of adult patients with multiple myeloma:
+            </p>
+            <p class="text-indent-bullets">• in combination with lenalidomide and dexamethasone in newly diagnosed patients who are ineligible for autologous stem cell transplant and in patients with relapsed or refractory multiple myeloma who have received at least one prior therapy</p>
+            <p class="font-purple"><strong>IMPORTANT SAFETY INFORMATION</strong>
+            </p>
+            <p> <span class="font-green"><strong>CONTRAINDICATIONS</strong></span><br>
+              DARZALEX<sup>®</sup>(daratumumab) is contraindicated in patients with a history of severe hypersensitivity (eg, anaphylactic reactions) to daratumumab or any of the components of the formulation. </p>
+            
+            <p><span class="font-green"><strong>WARNINGS AND PRECAUTIONS</strong></span><br>
+              <span class="font-green"><strong>Infusion Reactions</strong></span> – DARZALEX<sup>®</sup> can cause severe and/or serious infusion reactions, including anaphylactic reactions. In clinical trials, approximately half of all patients experienced an infusion reaction. Most infusion reactions occurred during the first infusion and were Grade 1-2. Infusion reactions can also occur with subsequent infusions. Nearly all reactions occurred during infusion or within 4 hours of completing DARZALEX<sup>®</sup>. Prior to the introduction of post-infusion medication in clinical trials, infusion reactions occurred up to 48 hours after infusion. Severe reactions have occurred, including bronchospasm, hypoxia, dyspnea, hypertension, laryngeal edema, and pulmonary edema. Signs and symptoms may include respiratory symptoms, such as nasal congestion, cough, throat irritation, as well as chills, vomiting, and nausea. Less common symptoms were wheezing, allergic rhinitis, pyrexia, chest discomfort, pruritus, and hypotension.</p>
+            <p>
+              Pre-medicate patients with antihistamines, antipyretics, and corticosteroids. Frequently monitor patients during the entire infusion. Interrupt infusion for reactions of any severity and institute medical management as needed. Permanently discontinue therapy if an anaphylactic reaction or life-threatening (Grade 4) reaction occurs and institute appropriate emergency care. For patients with Grade 1, 2, or 3 reactions, reduce the infusion rate when re-starting the infusion.
+            </p>
+            <p>
+              To reduce the risk of delayed infusion reactions, administer oral corticosteroids to all patients following DARZALEX<sup>®</sup> infusions. Patients with a history of chronic obstructive pulmonary disease may require additional post-infusion medications to manage respiratory complications. Consider prescribing short- and long-acting bronchodilators and inhaled corticosteroids for patients with chronic obstructive pulmonary disease.
+            </p>
+            <p><span class="font-green"><strong>Interference with Serological Testing</strong></span> — Daratumumab binds to CD38 on red blood cells (RBCs) and results in a positive Indirect Antiglobulin Test (Indirect Coombs test). Daratumumab-mediated positive indirect antiglobulin test may persist for up to 6 months after the last daratumumab infusion. Daratumumab bound to RBCs masks detection of antibodies to minor antigens in the patient’s serum. The determination of a patient’s ABO and Rh blood type are not impacted. Notify blood transfusion centers of this interference with serological testing and inform blood banks that a patient has received DARZALEX<sup>®</sup>. Type and screen patients prior to starting DARZALEX<sup>®</sup>.</p>
+            
+            <p><span class="font-green"><strong>Neutropenia and Thrombocytopenia</strong></span> — DARZALEX<sup>®</sup> may increase neutropenia and/or thrombocytopenia induced by background therapy. Monitor complete blood cell counts periodically during treatment according to the manufacturer’s prescribing information for background therapies. Monitor patients with neutropenia for signs of infection. DARZALEX<sup>®</sup> dose delay may be required to allow recovery of neutrophils and/or platelets. No dose reduction of DARZALEX<sup>®</sup> is recommended. Consider supportive care with growth factors for neutropenia or transfusions for thrombocytopenia.</p>
+            
+           
+            <p><span class="font-green"><strong>Interference With Determination of Complete Response</strong></span> — Daratumumab is a human IgG kappa monoclonal antibody that can be detected on both the serum protein electrophoresis (SPE) and immunofixation (IFE) assays used for the clinical monitoring of endogenous M-protein. This interference can impact the determination of complete response and of disease progression in some patients with IgG kappa myeloma protein.</p>
+            
+            <p> <span class="font-green"><strong>Adverse Reactions</strong></span> — The most frequently reported adverse reactions (incidence ≥20%) were: infusion reactions, neutropenia, thrombocytopenia, fatigue, asthenia, nausea, diarrhea, constipation, decreased appetite, vomiting, muscle spasms, arthralgia, back pain, pyrexia, chills, dizziness, insomnia, cough, dyspnea, peripheral edema, peripheral sensory neuropathy, bronchitis, pneumonia and upper respiratory tract infection.</p>
+            <p>       
+              DARZALEX<sup>®</sup> in combination with lenalidomide and dexamethasone (DRd): The most frequent (≥20%) adverse reactions for newly diagnosed or relapsed refractory patients were, respectively, infusion reactions (41%, 48%), diarrhea (57%, 43%), nausea (32%, 24%), fatigue (40%, 35%), pyrexia (23%, 20%), upper respiratory tract infection (52%, 65%), muscle spasms (29%, 26%), dyspnea (32%, 21%), and cough (30%, 30%). In newly diagnosed patients, constipation (41%), peripheral edema (41%), back pain (34%), asthenia (32%), bronchitis (29%), pneumonia (26%), decreased appetite (22%), and peripheral sensory neuropathy (24%) were also reported. In newly diagnosed patients, serious adverse reactions (≥2% compared to Rd) were dehydration (2%), bronchitis (4%), and pneumonia (15%), and treatment-emergent Grade 3-4 hematology laboratory abnormalities (≥20%) were leukopenia (35%), neutropenia (56%), and lymphopenia (52%). In relapsed/refractory patients, serious adverse reactions (≥2% compared to Rd) were pneumonia (12%), upper respiratory tract infection (7%), influenza (3%), and pyrexia (3%), and treatment-emergent Grade 3-4 hematology laboratory abnormalities (≥20%) were neutropenia (53%) and lymphopenia (52%).  
+            </p>
+            <p>
+              DARZALEX<sup>®</sup> in combination with bortezomib, melphalan, and prednisone (DVMP): The most frequently reported adverse reactions (≥20%) were upper respiratory tract infection (48%), infusion reactions (28%), and peripheral edema (21%). Serious adverse reactions (≥2% compared to the VMP arm) were pneumonia (11%), upper respiratory tract infection (5%), and pulmonary edema (2%). Treatment-emergent Grade 3-4 hematology laboratory abnormalities (≥20%) were lymphopenia (58%), neutropenia (44%), and thrombocytopenia (38%).
+            </p>
+            <p>
+              DARZALEX<sup>®</sup> in combination with bortezomib and dexamethasone (DVd): The most frequently reported adverse reactions (≥20%) were peripheral sensory neuropathy (47%), infusion reactions (45%), upper respiratory tract infection (44%), diarrhea (32%), cough (27%), peripheral edema (22%), and dyspnea (21%). The overall incidence of serious adverse reactions was 42%. Serious adverse reactions (≥2% compared to Vd) were upper respiratory tract infection (5%), diarrhea (2%), and atrial fibrillation (2%). Treatment-emergent Grade 3-4 hematology laboratory abnormalities (≥20%) were lymphopenia (48%) and thrombocytopenia (47%).
+            </p>
+            <p>
+              DARZALEX<sup>®</sup> in combination with pomalidomide and dexamethasone (DPd): The most frequent adverse reactions (&gt;20%) were fatigue (50%), infusion reactions (50%), upper respiratory tract infection (50%), cough (43%), diarrhea (38%), constipation (33%), dyspnea (33%), nausea (30%), muscle spasms (26%), back pain (25%), pyrexia (25%), insomnia (23%), arthralgia (22%), dizziness (21%), and vomiting (21%). The overall incidence of serious adverse reactions was 49%. Serious adverse reactions reported in ≥5% of patients included pneumonia (7%). Treatment-emergent Grade 3-4 hematology laboratory abnormalities (≥20%) were anemia (30%), neutropenia (82%), and lymphopenia (71%). 
+            </p>
+            <p>
+              DARZALEX<sup>®</sup> as monotherapy: The most frequently reported adverse reactions (≥20%) were infusion reactions (48%), fatigue (39%), nausea (27%), back pain (23%), pyrexia (21%), cough (21%), and upper respiratory tract infection (20%). The overall incidence of serious adverse reactions was 33%. The most frequent serious adverse reactions were pneumonia (6%), general physical health deterioration (3%), and pyrexia (3%). Treatment-emergent Grade 3-4 hematology laboratory abnormalities (≥20%) were lymphopenia (40%) and neutropenia (20%).
+            </p>
+            
+            <p>cp-60862v2</p>              
+              
+
+            </div>
+          </div>
+          <gwd-image id="dara_logo" source="daraLogo300.png?1562005443312" scaling="stretch" class="gwd-image-vluy"></gwd-image>
+          <gwd-image id="txt-1" source="text1_6.png?1562005443312" scaling="stretch" class="txt-1 gwd-gen-nfj6gwdanimation"></gwd-image>
+          <gwd-image id="new_approval" source="new_approval.png?1562005443312" scaling="stretch" class="gwd-image-kvl1 gwd-gen-1pengwdanimation"></gwd-image>
+          <gwd-image id="text-2v2" source="text2_6.png?1562005443312" scaling="stretch" class="gwd-image-1thf gwd-gen-1a8dgwdanimation"></gwd-image>
+          <gwd-image id="learn_more" source="learn_more.png?1562005443312" scaling="stretch" class="learn-more gwd-gen-1159gwdanimation"></gwd-image><span class="link-desc legal gwd-gen-1soagwdanimation" id="legal">© Janssen Biotech, Inc. 2019<br class="gwd-br-k2oh">
+            All rights reserved. 07/19 cp-92833v1</span>
+          <p class="gwd-ul-z11u gwd-gen-1d35gwdanimation gwd-p-p45r" id="Pleaseclick_1">Please click <a style="color:white" href="http://www.janssenlabels.com/package-insert/product-monograph/prescribing-information/TREMFYA-pi.pdf" class="gwd-a-1sxq">here</a> for full Prescribing Information.&nbsp;</p>
+          <gwd-image id="janssen_logo" source="janssen_logo_3.png?1562005443312" scaling="stretch" class="gwd-image-1n67 gwd-gen-1p04gwdanimation"></gwd-image>
+          <gwd-taparea id="clickTag-mainExit" class="gwd-taparea-16yv"></gwd-taparea>
+          <gwd-taparea id="clickTag-PI" class="clickTag4-footer"></gwd-taparea>
+        </div>
+      </gwd-page>
+    </gwd-pagedeck>
+    <gwd-exit metric="mainExit" url="http://darzalexhcp.com"></gwd-exit>
+    <gwd-exit metric="PI Link" url="http://www.janssenlabels.com/package-insert/product-monograph/prescribing-information/DARZALEX-pi.pdf"></gwd-exit>
+  </gwd-google-ad>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      var gwdAd = document.getElementById('gwd-ad');
+
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+      function handleDomContentLoaded(event) {
+
+      }
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        // Start the Ad lifecycle.
+        setTimeout(function() {
+          gwdAd.initAd();
+        }, 0);
+      }
+
+      /**
+       * Handles the event that is dispatched after the Ad has been
+       * initialized and before the default page of the Ad is shown.
+       */
+      function handleAdInitialized(event) {}
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+      window.addEventListener('adinitialized',
+        handleAdInitialized, false);
+    })();
+  </script>
+
+
+<script data-exports-type="dclk-quick-preview">studio.Enabler.setRushSimulatedLocalEvents(true);</script><script data-exports-type="gwd-studio-registration">function StudioExports() {
+Enabler.exit("mainExit", "http://darzalexhcp.com");
+Enabler.exit("PI Link", "http://www.janssenlabels.com/package-insert/product-monograph/prescribing-information/DARZALEX-pi.pdf");
+}</script><script type="text/gwd-admetadata">{"version":1,"type":"GoogleAd","format":"","template":"Banner 3.0.0","politeload":false,"fullscreen":false,"counters":[],"timers":[],"exits":[{"exitId":"mainExit","url":"http://darzalexhcp.com"},{"exitId":"PI Link","url":"http://www.janssenlabels.com/package-insert/product-monograph/prescribing-information/DARZALEX-pi.pdf"}],"creativeProperties":{"minWidth":300,"minHeight":600,"maxWidth":300,"maxHeight":600},"components":["gwd-google-ad","gwd-image","gwd-page","gwd-pagedeck","gwd-taparea"],"responsive":false}</script></body></html>

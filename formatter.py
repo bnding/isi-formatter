@@ -18,6 +18,7 @@ def fileToList(fileName):
     f.close()
     return isiLines
 
+
 def toHtml(isiLines):
     output = ""
     stack = []
