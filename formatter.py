@@ -4,12 +4,14 @@ sections = ["important safety information", "contraindications",
             "warnings & precautions", "drug interactions", "adverse reactions", "use in specific populations"]
 
 
-def getFile():
+# TODO: Merging Injector.py with formatter.py... getFiles now returns the args object. Need to call args.isi, args.html
+def getFiles():
     # parsing file into command line
     parser = argparse.ArgumentParser()
     parser.add_argument("isi")
+    parser.add_argument("html")
     args = parser.parse_args()
-    return args.isi
+    return args
 
 
 def fileToList(fileName):
@@ -154,14 +156,17 @@ def toHtml(isiLines):
     return output
 
 
+
 def main():
-    fileName = getFile()
+    fileName = getFiles().isi
     isiLines = fileToList(fileName)
     htmlIsi = toHtml(isiLines)
 
     f = open(fileName.replace(".txt", ".html"), "w+")
     f.write(htmlIsi)
     f.close()
+
+    print(getFiles().html)
 
 
 if __name__ == "__main__":
