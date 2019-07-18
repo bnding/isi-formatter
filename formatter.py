@@ -16,11 +16,7 @@ def fileToList(fileName):
     f = open(fileName, "r")
     isiLines = [lines.replace('®', '<sup>®</sup>') for lines in f]
     f.close()
-    print(isiLines)
     return isiLines
-
-# TODO: Problems with going from nested lists to paragraph... look at prezista-isi.html
-
 
 def toHtml(isiLines):
     output = ""
@@ -52,19 +48,22 @@ def toHtml(isiLines):
                             if(bulletStack[len(bulletStack)-1] == bullet):
                                 break
                             bulletStack.pop()
+
                             output += "</ul>"
                             if(len(stack) >= 1):
                                 stack.pop()
-
                     if(len(bulletStack) == 1):
                         if(previous == "p"):
                             output += "<ul><li>" + x + "</li>"
                             previous = "li"
+                            stack.append("<ul>")
                         else:
                             output += "<li>" + x + "</li>"
                             previous = "li"
                     else:
-                        output += "<ul><li>" + x + "</li>\n"
+                        output += "<ul><ul><li>" + x + "</li>\n"
+                        stack.append("<ul>")
+                        stack.append("<ul>")
                         previous = "li"
 
                 previousSect = False
@@ -152,68 +151,6 @@ def toHtml(isiLines):
             stack.pop()
 
     return output
-
-
-# def toHtml(isiLines):
-#     output = ""
-#     stack = []
-#     bulletState = {}
-#     currBullet = ""
-
-#     listState = False
-#     for x in isiLines:
-#         # strips leading whitespace if it exists
-#         if(x[0] == ' ' or x[0] == '\t'):
-#             x = x.strip()
-#         isList = x[0] == '•' or x[0] == '-' or x[0] == '*' or x[0] == '◦'
-
-#         # Checks if the current line is a list
-#         if(isList == True):
-#             currBullet = x[0]
-#             bulletState[currBullet] = False
-
-#             # Checks if a <ul> needs to be added
-#             if listState == False:
-#                 listState = True
-#                 bulletState[currBullet] = True
-#                 x = x[1:].strip()
-#                 output += "<ul><li>" + x + "</li>\n"
-#                 # stack is implemented to make sure </ul> is written if a list is that last element of list
-#                 stack.append("<ul>")
-#                 continue
-
-#             elif listState == True:
-#                 # Middle lists
-#                 x = x[1:].strip()
-#                 output += "<li>" + x + "</li>\n"
-#                 continue
-
-#         # Non lists
-#         if(isList == False):
-#             # Checks for line breaks only or breaks with content
-#             if '\n' in x and len(x) > 1:
-#                 # Check to see if closing ul tag is needed after last li tag
-#                 if(listState == True):
-#                     listState = False
-#                     bulletState[currBullet] = False
-#                     output += "</ul>\n"
-#                     stack.pop()
-
-#                 # \n exists as last character in non-break only lines. Need to remove
-#                 x = x[:-1]
-#                 output += ("<p>" + x + "</p>\n")
-#             elif '\n' in x and len(x) == 1:
-#                 output += "<br>\n"
-#             else:
-#                 output += "<p>" + x + "</p>\n"
-
-#     # Check for any trailing ul tags
-#     while(stack):
-#         if(stack[len(stack)-1] == "<ul>"):
-#             output += "</ul>"
-#         stack.pop()
-
-#     return output
 
 
 def main():
