@@ -1,6 +1,7 @@
 import argparse
+from bs4 import BeautifulSoup
 
-sections = ["important safety information", "contraindications",
+sections = ["indication, important safety information", "contraindications",
             "warnings & precautions", "drug interactions", "adverse reactions", "use in specific populations"]
 
 
@@ -166,7 +167,16 @@ def main():
     f.write(htmlIsi)
     f.close()
 
-    print(getFiles().html)
+    f = open(getFiles().html)
+    htmlText = f.read()
+    f.close()
+
+    soup = BeautifulSoup(htmlText, 'html.parser')
+    soup.find(class_="isi-area").insert(1,BeautifulSoup(htmlIsi, "html.parser"))
+
+    f=open("darzalex-isi-final.html", "w")
+    f.write(str(soup))
+    f.close()
 
 
 if __name__ == "__main__":
