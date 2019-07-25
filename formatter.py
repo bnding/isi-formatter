@@ -174,7 +174,7 @@ def main():
     soup = BeautifulSoup(htmlText, 'html.parser')
     soup.find(class_="isi-area").insert(1,BeautifulSoup(htmlIsi, "html.parser"))
 
-    f=open("darzalex-isi-final.html", "w")
+    f=open(getFiles().html, "w")
     f.write(str(soup))
     f.close()
 
