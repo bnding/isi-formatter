@@ -33,9 +33,7 @@ There needs to be an HTML file that the `formatter.py` can write the ISI into.
 
 In the command line, run `python3` with `formatter.py`. The order of the two arguments will always be the **ISI** followed by the **HTML file** that you wish to put the formatted ISI into. 
 
-For our example, `darzalex-isi-final.html` has an empty div with the class name `isi-area`. Any of the text files in the `testscases` folder should be able to be placed into the darzalex html file.
-
-To format the ISI and write it into `darzalex-isi-final.html`, we can run...
-`python3 formatter.py testcases/darzalex-isi.txt darzalex-isi-final.html`
+We can run...
+`python3 formatter.py path/to/isi.txt path/to/website.html`
 
 This will result in the html file filled in with the formatted text file!
