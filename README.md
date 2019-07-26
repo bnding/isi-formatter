@@ -16,14 +16,15 @@ The formatter is designed to automatically update the file that needs the ISI an
 Download [here](https://www.python.org/downloads/)
 
 #### BeautifulSoup ####
+Type the following into your terminal
+
 `pip3 install beautifulsoup4`
 
 If above does not work, go [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
 
 ## Inputs ##
 #### ISI text file ####
-The ISI must first be placed into a `.txt` file before it can be read with the formatter. There is a testcases folder that should have some txt files you can use as an example.
-
+The ISI must first be placed into a `.txt` file before it can be read with the formatter.
 #### HTML file to write into ####
 There needs to be an HTML file that the `formatter.py` can write the ISI into.
 
