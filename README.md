@@ -1,5 +1,5 @@
 # ISI-Formatter &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) #
-The ISI-Formatter is a small python project I did during my internship that automates the tedious task of adding tags to the Instructional Safety Information for drugs being developed by pharmaceutical companies.
+The ISI-Formatter is a small python project I did during my internship that automates the tedious task of adding tags to the Important Safety Information for drugs being developed by pharmaceutical companies.
 
 Automation includes...
 
@@ -32,7 +32,7 @@ There needs to be an HTML file that the `formatter.py` can write the ISI into.
 
 ## Running the Script ##
 
-In the command line, run `python3` with `formatter.py`. The order of the two arguments will always be the **ISI** followed by the **HTML file** that you wish to put the formatted ISI into. 
+In the command line, run `python3` with `formatter.py` and the isi in text format followed by the HTML file you wish to write the formatted text into. The order of the two arguments will always be the **ISI** followed by the **HTML file** that you wish to put the formatted ISI into. 
 
 We can run...
 `python3 formatter.py path/to/isi.txt path/to/website.html`
