@@ -10,7 +10,7 @@ Automation includes...
 
 The formatter is designed to automatically update the file that needs the ISI and will only require CSS styling afterwards. This was not implemented as each company has different layouts and designs within the ISI.
 
-## Installation ##
+## Dependencies ##
 
 #### Python3 ####
 Download [here](https://www.python.org/downloads/)
