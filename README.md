@@ -16,7 +16,6 @@ The formatter is designed to automatically update the file that needs the ISI an
 Download [here](https://www.python.org/downloads/)
 
 #### BeautifulSoup ####
-Type the following into your terminal
 
 `pip3 install beautifulsoup4`
 
